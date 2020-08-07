@@ -21,6 +21,7 @@ async def root():
 async def get_inventory(item: str):
     return {"item": item}
 
+
 @app.post("/inventory/")
 async def add_inventory(item: Item):
     if item.description:
