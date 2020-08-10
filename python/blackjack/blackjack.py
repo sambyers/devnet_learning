@@ -34,7 +34,7 @@ class BlackJack:
         return player_names
 
     @property
-    def current_leader(self) -> object:
+    def current_leader(self) -> Player:
         return max(self.active_players, key=lambda player: player.hand.hand_sum)
 
     def add_player(self, name: str) -> None:

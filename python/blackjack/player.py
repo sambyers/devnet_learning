@@ -4,11 +4,11 @@ class Player:
         self._hand = None
 
     @property
-    def hand(self) -> object:
+    def hand(self) -> Hand:
         return self._hand
 
     @hand.setter
-    def hand(self, hand: object):
+    def hand(self, hand: Hand):
         self._hand = hand
 
     @property
