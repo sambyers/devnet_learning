@@ -1,4 +1,7 @@
-'''Good old fashioned web scraping to generate json of IPs and URLs used by Webex for consumtion by a network appliance.'''
+'''
+Good old fashioned web scraping to generate json of IPs and URLs used by Webex for consumtion by a network appliance.
+https://help.webex.com/en-us/WBX264/How-Do-I-Allow-Webex-Meetings-Traffic-on-My-Network
+'''
 import re
 import urllib.request
 import json
