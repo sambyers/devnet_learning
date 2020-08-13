@@ -11,5 +11,6 @@ curl -s -c /tmp/cookie -b /tmp/cookie -X GET -H 'Content-type: application/json'
 
 get nodes in lab
 curl -s -c /tmp/cookie -b /tmp/cookie -X GET -H 'Content-type: application/json' http://127.0.0.1/api/labs/User1/Lab%201.unl/nodes
+curl -s -c /tmp/cookie -b /tmp/cookie -X GET -H 'Content-type: application/json' http://127.0.0.1/api/labs/User1/BASE-10-ROUTER-LAB.unl/nodes
 '''
 
