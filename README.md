@@ -16,3 +16,6 @@ This repo is for my future self to refer back to and use as boiler plate. My int
 
 ## deploy apps
 - [deploy_apps](/deploy-apps): bare bones web app deployed locally using containers
+
+## firepower threat defense
+- [fdm api config sync](/fdm): example of syncing configuration from a yaml file to the fdm api
