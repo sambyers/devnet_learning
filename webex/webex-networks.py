@@ -6,6 +6,7 @@ import re
 import urllib.request
 import json
 
+
 # To do
 # Add Webex teams clients
 
@@ -50,7 +51,6 @@ def main():
     ips = find_ips(resaponse_str)
     urls = find_urls(resaponse_str)
     meetings = webex_meetings_clients(ips, urls)
-    # teams = webex_teams_clients(ips, urls)
     outfile([meetings])
 
 
