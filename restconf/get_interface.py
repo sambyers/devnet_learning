@@ -1,7 +1,7 @@
 import requests
 import re
 import json
-from config import headers, hosts
+from configuration import headers, hosts
 import json
 
 

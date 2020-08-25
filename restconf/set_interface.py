@@ -1,5 +1,5 @@
 import requests
-from config import headers, hosts
+from configuration import headers, hosts
 import json
 
 
