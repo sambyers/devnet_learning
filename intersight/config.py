@@ -1,3 +1,7 @@
+"""
+Singleton implementation copied from Guido van Rossom. It uses the __new__ static method.
+https://www.python.org/download/releases/2.2.3/descrintro/
+"""
 import os
 
 
@@ -13,7 +17,7 @@ class Singleton(object):
         pass
 
 class Config(Singleton):
-    def __init__(self):
+    def init(self):
         self.base_url = "https://intersight.com"
         self.api_key_id = os.environ.get('INTERSIGHT_KEY_ID')
         self.secret_key_file = os.environ.get('INTERSIGHT_SECRET_KEY_FILE')
