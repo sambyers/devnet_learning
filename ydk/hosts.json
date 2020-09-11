@@ -1,0 +1,18 @@
+[
+    {
+        "host": "ios-xe-mgmt-latest.cisco.com",
+        "restconf_port": "9443",
+        "netconf_port": "10000",
+        "ssh_port": "8181",
+        "username": "developer",
+        "password": "C1sco12345"
+    },
+    {
+        "host": "ios-xe-mgmt.cisco.com",
+        "restconf_port": "9443",
+        "netconf_port": "10000",
+        "ssh_port": "8181",
+        "username": "developer",
+        "password": "C1sco12345"
+    }
+]
