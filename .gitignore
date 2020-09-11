@@ -3,6 +3,7 @@ deploy_apps/db/
 .DS_Store
 ydk-py-master
 *.pem
+*.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

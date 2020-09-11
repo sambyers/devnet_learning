@@ -1,6 +1,9 @@
-FROM ubuntu
-COPY ./ydk-py-master /root/ydk-py
-RUN echo 'Installing dependencies  and ydk-py'
-WORKDIR /root/ydk-py
-RUN /bin/bash -c './dependencies_ubuntu.sh && ./dependencies_gnmi.sh && ./tests.sh'
-RUN /bin/bash -c './tests_py3.sh'
+# https://github.com/CiscoDevNet/ydk-py
+# A docker image is automatically built with the latest ydk-py installed.
+FROM ydkdev/ydk-py
+
+COPY . /root/my-ydk
+
+WORKDIR /root/my-ydk
+
+RUN ["python3", "ydk-example-1.py"]
