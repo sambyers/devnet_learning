@@ -16,7 +16,7 @@ class BlackJack:
         return self._players
 
     @players.setter
-    def players(self, players: list):
+    def players(self, players: list) -> None:
         player_objs = []
         for player in players:
             player_obj = Player(player)
